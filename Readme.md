@@ -18,3 +18,5 @@ git reset HEAD (Retorna o arquivo para a area de edição)
 git reset --soft (Volta para o staged)
 git reset --mixed (Volta para o Modified)
 git reset --hard (Mata tudo o que foi feito)
+
+Para atualizar o arquivo no repositório remoto (git push origin(nome do repositorio remoto) master)
