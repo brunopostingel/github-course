@@ -32,19 +32,19 @@ Listar branch (git branch)
 Navegar pelas branches (git checkout (nome branch))
 Apagar branch (git checkout -D (nome branch))
 
-               MERGE -> Unir as branches
+              MERGE -> Unir as branches
 
-           PROS         |     CONTRAS
-	                |
-Operação não destrutiva | Commit extra
-                        | Histórico poluído
+             PROS         |     CONTRAS
+                          |
+  Operação não destrutiva | Commit extra
+                          | Histórico poluído
 
-          REBASE -> Unir as Branches
+           REBASE -> Unir as Branches
 
-         PROS        |          CONTRAS
-                     |
-Evita commits extras | Perde ordem cronológica
-Histórico linear     |
+           PROS        |          CONTRAS
+                       |
+  Evita commits extras | Perde ordem cronológica
+  Histórico linear     |
 
 Merge (git merge (nome banch))
 Rebase (git rebase (nome branch))
