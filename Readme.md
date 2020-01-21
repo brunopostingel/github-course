@@ -19,4 +19,9 @@ git reset --soft (Volta para o staged)
 git reset --mixed (Volta para o Modified)
 git reset --hard (Mata tudo o que foi feito)
 
-Para atualizar o arquivo no repositório remoto (git push origin(nome do repositorio remoto) master)
+Para atualizar o arquivo no repositório remoto (git push origin(nome do repositorio remoto) master
+
+Criar branch (git checkout -b (nome branch))
+Listar branch (git branch)
+Navegar pelas branches (git checkout (nome branch))
+Apagar branch (git checkout -D (nome branch))
