@@ -1,4 +1,4 @@
-# Github
+i# Github
 
 Arquivo da aula de Git e Github
 
@@ -16,6 +16,12 @@ git shortlog -sn (Mostra o nome de quem fez o commit e o número de commits!)
 git checkout (Retornar arquivos que ainda estão em edição)
 git reset HEAD (Retorna o arquivo para a area de edição)
 git reset --soft (Volta para o staged)
+git reset --m shortlog (Mostra em ordem alfabética quais os autores, quantos commits e quais foram!)
+git shortlog -sn (Mostra o nome de quem fez o commit e o número de commits!)
+
+git checkout (Retornar arquivos que ainda estão em edição)
+git reset HEAD (Retorna o arquivo para a area de edição)
+git reset --soft (Volta para o staged)
 git reset --mixed (Volta para o Modified)
 git reset --hard (Mata tudo o que foi feito)
 
@@ -25,3 +31,21 @@ Criar branch (git checkout -b (nome branch))
 Listar branch (git branch)
 Navegar pelas branches (git checkout (nome branch))
 Apagar branch (git checkout -D (nome branch))
+
+               MERGE -> Unir as branches
+
+           PROS         |     CONTRAS
+	                |
+Operação não destrutiva | Commit extra
+                        | Histórico poluído
+
+          REBASE -> Unir as Branches
+
+         PROS        |          CONTRAS
+                     |
+Evita commits extras | Perde ordem cronológica
+Histórico linear     |
+
+Merge (git merge (nome banch))
+Rebase (git rebase (nome branch))
+
